@@ -1,0 +1,15 @@
+{
+  "name": "postmantoexcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nikhilbhandarkar1998@gmail.com | whydonti",
+  "license": "ISC",
+  "dependencies": {
+    "excel4node": "^1.7.2",
+    "meow": "^6.1.0"
+  }
+}
