@@ -1,6 +1,6 @@
 {
   "name": "ptoe",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI for generating Excel from a Collection.json file",
   "repository": "https://github.com/whyDontI/PTOE-Postman-Collection-To-Excel-CLI",
   "main": "index.js",
