@@ -1,7 +1,8 @@
 {
-  "name": "postmantoexcel",
-  "version": "1.0.0",
-  "description": "",
+  "name": "ptoe",
+  "version": "1.0.1",
+  "description": "A CLI for generating Excel from a Collection.json file",
+  "repository": "https://github.com/whyDontI/PTOE-Postman-Collection-To-Excel-CLI",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +12,6 @@
   "dependencies": {
     "excel4node": "^1.7.2",
     "meow": "^6.1.0"
-  }
+  },
+  "bin": "index.js"
 }

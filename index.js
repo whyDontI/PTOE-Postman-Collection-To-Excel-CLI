@@ -9,12 +9,17 @@ const cli = meow(`
     --file, -f Path to collection.json file
   Examples
     $ ptoe --file collection.json
+    $ ptoe --help
     Excel file generated
 `, {
   flags: {
     file: {
       type: 'boolean',
         alias: 'f'
+    },
+    help: {
+      type: 'boolean',
+      alias: 'h'
     }
   }
 });
