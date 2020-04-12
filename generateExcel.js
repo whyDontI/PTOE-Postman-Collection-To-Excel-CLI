@@ -41,8 +41,8 @@ function generateExcel (filename, flags){
   }
   let collectionObject = JSON.parse(file);
   parseFolder(collectionObject)
-  wb.write(`${filename}.xlsx`)
-  console.log(`Excel file generated with name ${filename}.xlsx`)
+  wb.write(`${filename.slice(0, filename.length - 5)}.xlsx`)
+  console.log(`Excel file generated with name ${filename.slice(0, filename.length - 5)}.xlsx`)
 }
 
 function parseItem(item) {
